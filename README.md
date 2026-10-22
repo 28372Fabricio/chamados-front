@@ -1,16 +1,34 @@
-# React + Vite
+# Chamados IFRN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Front-end do Sistema de Chamados de Manutenção do IFRN (React + Vite).
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Como baixar e rodar
 
-## React Compiler
+1. Clone o repositório:
+```bash
+git clone https://github.com/SEU-USUARIO/chamados-front.git
+cd chamados-front
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Instale as dependências:
+```bash
+npm install
+```
 
-## Expanding the ESLint configuration
+3. Crie o arquivo `.env` na raiz com a sua chave da API:
+```
+VITE_API_KEY=sua-chave-aqui
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Rode o projeto:
+```bash
+npm run dev
+```
+
+5. Abra `http://localhost:5173` no navegador.
+
+6. Prints do sistema funcionando
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
